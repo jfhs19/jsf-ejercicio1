@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+<title>JSF 2: Proyecto formación. Inicio.</title>
+<link href="./css/styles.css" 
+      rel="stylesheet" type="text/css"/> 
+</h:head>
+<h:body>
+<h1 class="title">JSF 3: Managed Beans</h1>
+
+<div align="center">
+<div align="center">
+<fieldset>
+<legend>JSF Registro correcto</legend>
+<h:form>
+  Nombre del empleado: #{userBean.name}<br/>  
+  ID: #{userBean.ID}<br/>
+  Nombre del seguro sanitario: #{userBean.healthPlan.nombre}<br/>
+
+</h:form>
+</fieldset>
+</div>
+</div></h:body></html>
